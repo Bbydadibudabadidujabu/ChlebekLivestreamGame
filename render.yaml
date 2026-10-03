@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: klaskanie-server
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BRIDGE_TOKEN
+        generateValue: true
+      - key: ROUND_TIME_MS
+        value: "15000"
+      - key: WINNER_TIME_MS
+        value: "5000"
