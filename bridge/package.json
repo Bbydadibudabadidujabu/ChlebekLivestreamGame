@@ -1,0 +1,12 @@
+{
+  "name": "klaskanie-local-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "main": "bridge.js",
+  "scripts": {
+    "start": "node bridge.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
